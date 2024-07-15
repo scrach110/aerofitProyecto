@@ -9,7 +9,7 @@
 .Capacidad de vuelo con ID:  69 es 14.
 
 
-####Ejemplos de request en PostMan:
+### Ejemplos de request en PostMan:
 
 ```javascript
 GET: http://localhost:8080/aerofit/infoVuelo/{idVuelo}
@@ -31,10 +31,10 @@ PUT: http://localhost:8080/aerofit/procesarCompra
 //"La compra no es valida, capacidad insuficiente." si la compra no se pudo procesar.
 ```
 
-####Ejemplos de request en Jmetter
+### Ejemplos de request en Jmetter
 
 - Se puede probar con 100 hilos si así se quisiera.
-.Parar hacer un GET seria:
+- Para hacer un GET seria:
 
 
 ```javascript
@@ -44,7 +44,7 @@ Peticion HTTP: GET
 Ruta: aerofit/infoVuelo/{idDeVuelo}
 ```
 
-.Para hacer un PUT seria:
+- Para hacer un PUT seria:
 ```javascript
 Nombre de servidor o IP: localhost 
 Puerto: 8080
